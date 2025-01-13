@@ -1,9 +1,10 @@
 import nodemailer from "nodemailer";
 
 export const mailTransporter = nodemailer.createTransport({
-  service: "gmail",
+  host: "sandbox.smtp.mailtrap.io",
+  port: 2525,
   auth: {
-    user: process.env.GOOGLE_EMAIL,
-    pass: process.env.GOOGLE_APP_PASSWORD,
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
   },
 });
