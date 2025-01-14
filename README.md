@@ -1,4 +1,3 @@
-````md
 # Post Guard API
 
 Post Guard is a security-focused API monitoring system built with TypeScript and Express. It tracks failed API requests, alerts on suspicious activity, and provides detailed metrics for analysis.
@@ -28,11 +27,11 @@ Post Guard is a security-focused API monitoring system built with TypeScript and
 ## Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/post-guard.git
+   git clone https://github.com/sxxaq/post-guard.git
    cd post-guard
    ```
-````
 
 2. Install dependencies:
 
@@ -104,8 +103,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-[Your Name](https://github.com/yourusername)
-
-```
-
-```
+[Saalim Aqueel](https://github.com/SxxAq)
